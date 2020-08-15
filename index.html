@@ -7,6 +7,23 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDhL12cVb8f8jPqgSatJb8pq9x3aARao9M",
+          authDomain: "to-do-app-30d6b.firebaseapp.com",
+          databaseURL: "https://to-do-app-30d6b.firebaseio.com",
+          projectId: "to-do-app-30d6b",
+          storageBucket: "to-do-app-30d6b.appspot.com",
+          messagingSenderId: "339702679518",
+          appId: "1:339702679518:web:3017a247ce66e22db47f4f"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
 
 
 </head>
@@ -20,7 +37,7 @@
     </div>
 
     <div class="ul">
-        <ul id="list">
+        <ul id="list"> 
 
         </ul>
     </div>
